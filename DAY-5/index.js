@@ -9,9 +9,9 @@ fs.unlinkSync('Folder-1/hello.txt');
 fs.rmdirSync('Folder-1');
 
 const test = require('./require_test.js');
-var txt = new test();
+var txt = new test.Test();
 console.log(txt.print());
 
 const test2= require('./require_test');
-var txt2 = new test2();
+var txt2 = new test2.Test2();
 console.log(txt2.print());

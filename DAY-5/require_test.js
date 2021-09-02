@@ -12,5 +12,4 @@ class Test2 {
     }
 }
 
-module.exports=Test;
-module.exports=Test2;
+module.exports={Test,Test2};
